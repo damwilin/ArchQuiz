@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ArchQuiz</string>
+    <string name="question1">What is the name of this architect?</string>
+    <string name="question1_a1">Le Corbusier</string>
+    <string name="question1_a2">Zaha Hadid</string>
+    <string name="question1_a3">Robert Konieczny</string>
+    <string name="question1_a4">Filippo Brunelleschi</string>
+
+    <string name="question2">For Vitruvius three principles of good architecture are:</string>
+    <string name="question2_a1">Utility</string>
+    <string name="question2_a2">Simplicity</string>
+    <string name="question2_a3">Durability</string>
+    <string name="question2_a4">Beauty</string>
+
+    <string name="question3">In which style was this building built:</string>
+    <string name="question3_a1">Ghotic</string>
+    <string name="question3_a2">Bauhaus</string>
+    <string name="question3_a3">Neo-futurism</string>
+    <string name="question3_a4">Modernism</string>
+
+    <string name="question4">What is not a part of Le Corbusier\'s Five Points of Architecture:</string>
+    <string name="question4_a1">The horizontal window</string>
+    <string name="question4_a2">Abacus</string>
+    <string name="question4_a3">Pilotis</string>
+    <string name="question4_a4">Roof gardens</string>
+
+    <string name="question5">In which country was this building built?</string>
+    <string name="question5_a1">Italy</string>
+    <string name="question5_a2">Germany</string>
+    <string name="question5_a3">USA</string>
+    <string name="question5_a4">Poland</string>
+
+    <string name="question6">What is the name for this material?</string>
+    <string name="question6_ok_answer">concrete</string>
+
+    <string name="name_field">Set name</string>
+    <string name="answer_field">Set answer</string>
+    <string name="submit">submit answers</string>
+    <string name="no_name">Please set your name</string>
+    <string name="no_all_answers">You need to answer all question first</string>
+</resources>
+

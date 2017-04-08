@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Header" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/header_height</item>
+        <item name="android:layout_marginBottom">@dimen/margin_main</item>
+        <item name="cardElevation">@dimen/elevation_main</item>
+    </style>
+
+    <style name="HeaderRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="HeaderImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleX">0.75</item>
+        <item name="android:scaleY">0.75</item>
+    </style>
+
+    <style name="NameField">
+        <item name="android:layout_width">@dimen/name_field_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:hint">@string/name_field</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:layout_margin">@dimen/margin_main</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="QuestionText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">@dimen/margin_main</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="QuestionRadioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="QuestionCheckBox" parent="QuestionRadioButton">
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+    </style>
+
+    <style name="QuestionCheckBox.Last">
+        <item name="android:layout_marginBottom">@dimen/margin_main</item>
+    </style>
+
+    <style name="QuestionRadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_main</item>
+    </style>
+
+    <style name="QuizImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/quiz_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="QuestionLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="QuestionCardView" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_main</item>
+        <item name="cardCornerRadius">@dimen/corner_radius</item>
+        <item name="cardElevation">@dimen/elevation_main</item>
+    </style>
+
+    <style name="QuestionEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_big</item>
+        <item name="android:hint">@string/answer_field</item>
+    </style>
+
+    <style name="FinishCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/finish_height</item>
+        <item name="android:layout_marginTop">@dimen/margin_main</item>
+        <item name="cardElevation">@dimen/elevation_main</item>
+    </style>
+
+    <style name="FinishLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SubmitButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/submit</item>
+    </style>
+
+</resources>

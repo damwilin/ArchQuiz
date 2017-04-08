@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_height">380dp</dimen>
+    <dimen name="finish_height">100dp</dimen>
+    <dimen name="quiz_image_height">300dp</dimen>
+    <dimen name="margin_main">16dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="elevation_main">5dp</dimen>
+    <dimen name="name_field_width">250dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="question_size">16sp</dimen>
+</resources>
