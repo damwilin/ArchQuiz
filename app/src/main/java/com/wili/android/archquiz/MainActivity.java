@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private Button submitButton;
     private String userName;
     private double userPoints = 0;
+    private double userScore;
     private final int amountOfMaxPoints = 6;
     private ArrayList<String> radioGroupsCorrectAnswers;
 
@@ -86,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String composeAnswer() {
-        String answer = "Congratulations " + userName + "\nYou got " + Math.round(userPoints / amountOfMaxPoints * 100) + " % of test.";
-        return answer;
+        userScore = Math.round(userPoints / amountOfMaxPoints * 100);
+        return getString(R.string.finish_answer,userName,Double.toString(userScore));
     }
 
     public void submitAnswers(View view) {

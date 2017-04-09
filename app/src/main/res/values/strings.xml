@@ -12,7 +12,7 @@
     <string name="question2_a3">Durability</string>
     <string name="question2_a4">Beauty</string>
 
-    <string name="question3">In which style was this building built:</string>
+    <string name="question3">In what style was this building built?</string>
     <string name="question3_a1">Ghotic</string>
     <string name="question3_a2">Bauhaus</string>
     <string name="question3_a3">Neo-futurism</string>
@@ -24,7 +24,7 @@
     <string name="question4_a3">Pilotis</string>
     <string name="question4_a4">Roof gardens</string>
 
-    <string name="question5">In which country was this building built?</string>
+    <string name="question5">In what country was this building built?</string>
     <string name="question5_a1">Italy</string>
     <string name="question5_a2">Germany</string>
     <string name="question5_a3">USA</string>
@@ -38,5 +38,6 @@
     <string name="submit">submit answers</string>
     <string name="no_name">Please set your name</string>
     <string name="no_all_answers">You need to answer all question first</string>
+    <string name="finish_answer">Congratulations %1$s. Your score is %2$s %%</string>
 </resources>
 
